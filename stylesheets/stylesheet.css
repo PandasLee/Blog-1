@@ -246,18 +246,18 @@ a {
 .main-content a{
     margin-left:0px;
 	color : #49aca5 ;
-         text-decoration : none ;
-         transition : all 0.5s linear ;
-         -moz-transition : all 0.5s linear ;
-         -webkit-transition : all 0.5s linear ;
-         -o-transition : all 0.5s linear ;
+    text-decoration : none ;
+    transition : all 0.5s linear ;
+    -moz-transition : all 0.5s linear ;
+    -webkit-transition : all 0.5s linear ;
+    -o-transition : all 0.5s linear ;
 }
 
 .main-content a:hover {
 	margin-left:20px;
-     color : inherit ;
-         transition : all 0.4s linear ;
-         -moz-transition : all 0.5s linear ;
-         -webkit-transition : all 0.5s linear ;
-         -o-transition : all 0.5s linear ;
+    color : inherit ;
+    transition : all 0.4s linear ;
+    -moz-transition : all 0.5s linear ;
+    -webkit-transition : all 0.5s linear ;
+    -o-transition : all 0.5s linear ;
 }
