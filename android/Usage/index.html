@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="alternate" href="/index.xml" type="application/rss+xml" title="NewtonLee-Blog">
 		<link rel="icon" href="http://newtonlee95.github.io/Blog//favicon.ico">
-		<title>My first post - NewtonLee-Blog</title>
+		<title>Usage - NewtonLee-Blog</title>
 		
 		<link rel="stylesheet" href="http://newtonlee95.github.io/Blog//css/highlight/github.css">
 		<link rel="stylesheet" href="http://newtonlee95.github.io/Blog//css/bootstrap.min.css">
@@ -82,12 +82,120 @@
 		<main role="main">
 			<article>
 				<a id="title"></a>
-				<h1 class="doc-entry-title">My first post</h1>
+				<h1 class="doc-entry-title">Usage</h1>
 				<div class="doc-entry-meta">
-					<span><time datetime="2016-07-28">July 28, 2016</time></span>
+					<span><time datetime="2016-05-07">May 07, 2016</time></span>
 				</div>
 				<section>
-					<p>boom boom boom.</p>
+					
+
+<h2 id="add-more-document-pages">Add more document pages</h2>
+
+<p>You can create more pages by <code>hugo new</code> command.</p>
+
+<pre><code>$ hugo new page-name.md
+</code></pre>
+
+<p>If you want to quick access for the page, you can include it in <em>navigation bar</em>
+in header by adding an entry of <code>[[params.mainMenu]]</code> in your <code>config.toml</code> (or
+<em>config.yaml</em>):</p>
+
+<pre><code># config.toml
+[[params.mainMenu]]
+  name = &quot;&lt;Text to show&gt;&quot;
+  link = &quot;&lt;relative-path-to-page&gt;&quot;
+</code></pre>
+
+<p>Then you can access the page by link in navigation bar at header of the site.</p>
+
+<p>Before <strong>v1.0.3</strong>, the link name must be same to page name just under <code>content/</code>
+directory.<br />
+After <strong>v1.1.0</strong>, you can add menu to any page in the site by the format above.</p>
+
+<h2 id="add-index-page">Add Index Page</h2>
+
+<p><code>Index</code> page shows all your page list in section hierarchy.</p>
+
+<p>To add <code>index</code> page to your site, follow these steps:</p>
+
+<p>1) Create <code>index/_dummy</code> page by <code>hugo new</code> command:</p>
+
+<pre><code>$ hugo new index/_dummy.md
+</code></pre>
+
+<p>2) Add an entry of <code>[[params.mainMenu]]</code> in config file which links to <code>index</code>:</p>
+
+<pre><code># config.toml
+[[params.mainMenu]
+  name = &quot;Index&quot;
+  link = &quot;index&quot;
+</code></pre>
+
+<h2 id="categorize-and-tagging-pages">Categorize and Tagging pages</h2>
+
+<p>You can add one or more <em>categories</em> and <em>tags</em> to pages.</p>
+
+<p>All category list appears as drop-down menu at the header navigation bar.<br />
+If you set <code>params.noCategoryLink</code> true in your <code>config.toml</code>, the drop-down menu disappears:</p>
+
+<pre><code>[params]
+  noCategoryLink = true
+</code></pre>
+
+<h2 id="add-search-form-by-google">Add Search Form by Google</h2>
+
+<p>You can add <strong>search form</strong> on navbar by adding configuration param <code>params.searchDomain</code>:</p>
+
+<pre><code># config.toml
+[params]
+  searchDomain = &quot;your-domain.org&quot;
+</code></pre>
+
+<p>This adds search form using Google site search.</p>
+
+<h2 id="other-configurations">Other Configurations</h2>
+
+<p>Here is an example of <code>config.toml</code> including all customizable parameters for this
+theme:</p>
+
+<pre><code>baseurl = &quot;http://your-domain.org&quot;
+title = &quot;Your Site&quot;
+theme = &quot;bootie-docs&quot;
+copyright = &quot;Copyright (c) 2015, Your Name; All rights reserved.&quot;
+
+[params]
+  description = &quot;Brief description for your site.&quot;
+  withSitePosts = true
+  searchDomain = &quot;your-domain.org&quot;
+  #noCategoryLink = true
+  repositoryUrl = &quot;http://your-repository-url&quot;
+  highlightStyle = &quot;github&quot;
+
+[[params.mainMenu]]
+  name = &quot;About&quot;
+  link = &quot;about&quot;
+
+[[params.mainMenu]]
+  name = &quot;Usage&quot;
+  link = &quot;usage&quot;
+
+[[params.mainMenu]]
+  name = &quot;Index&quot;
+  link = &quot;index&quot;
+</code></pre>
+
+<ul>
+<li><strong>Title</strong> is shown in header navigation bar and on top page.</li>
+<li><strong>Copyright</strong> is shown in footer (optional).</li>
+<li><strong>Params.description</strong> is shown on top page.</li>
+<li>When <strong>params.withSitePosts</strong> is set true, a link appears on top page which leads
+you to the listing page of the posts in your site under the <code>post/</code> directory.</li>
+<li><strong>Params.repositoryUrl</strong> is shown in footer (optional).</li>
+<li><strong>Params.highlightStyle</strong> is used to change the style of <code>highlight.js</code>.<br />
+You can find available styles in
+<a href="https://github.com/key-amb/hugo-theme-bootie-docs/tree/master/static/css/highlight">static/css/highlight</a>
+directory.</li>
+</ul>
 
 				</section>
 			</article>
@@ -102,9 +210,20 @@
 		<div class="sidebar-toc">
 			<h4 class="sidebar-heading">Table of Contents</h4>
 			<ul>
-				<li><strong><a href="#title">My first post</a></strong></li>
+				<li><strong><a href="#title">Usage</a></strong></li>
 			</ul>
-			
+			<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#add-more-document-pages">Add more document pages</a></li>
+<li><a href="#add-index-page">Add Index Page</a></li>
+<li><a href="#categorize-and-tagging-pages">Categorize and Tagging pages</a></li>
+<li><a href="#add-search-form-by-google">Add Search Form by Google</a></li>
+<li><a href="#other-configurations">Other Configurations</a></li>
+</ul></li>
+</ul>
+</nav>
 		</div>
 	</div>
 	<div class="sidebar-module">
@@ -127,8 +246,9 @@
 					<span class="doc-list-category">Usage</span>
 				</a>
 				<ul>
-					<li><a href="/Blog/android/Usage/">Usage</a>
-					</li>
+					<li>
+						<span class="active">Usage</span>
+						</li>
 				
 				</ul>
 			</li>

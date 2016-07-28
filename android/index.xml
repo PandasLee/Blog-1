@@ -1,50 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NewtonLee-Blog</title>
-    <link>http://newtonlee95.github.io/Blog/</link>
-    <description>Recent content on NewtonLee-Blog</description>
+    <title>Androids on NewtonLee-Blog</title>
+    <link>http://newtonlee95.github.io/Blog/android/</link>
+    <description>Recent content in Androids on NewtonLee-Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2016, NewtonLee; All rights reserved.</copyright>
-    <lastBuildDate>Thu, 28 Jul 2016 16:21:30 +0900</lastBuildDate>
-    <atom:link href="http://newtonlee95.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>My first post</title>
-      <link>http://newtonlee95.github.io/Blog/post/first/</link>
-      <pubDate>Thu, 28 Jul 2016 16:21:30 +0900</pubDate>
-      
-      <guid>http://newtonlee95.github.io/Blog/post/first/</guid>
-      <description>&lt;p&gt;boom boom boom.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://newtonlee95.github.io/Blog/about/</link>
-      <pubDate>Thu, 28 Jul 2016 07:39:21 +0900</pubDate>
-      
-      <guid>http://newtonlee95.github.io/Blog/about/</guid>
-      <description>
-
-&lt;h2 id=&#34;version&#34;&gt;Version&lt;/h2&gt;
-
-&lt;p&gt;1.1.1&lt;/p&gt;
-
-&lt;h2 id=&#34;dependencies&#34;&gt;Dependencies&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; &amp;hellip; Well-known CSS framework.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jquery.com/&#34;&gt;jQuery&lt;/a&gt; &amp;hellip; Requried by &lt;em&gt;Bootstrap&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt; &amp;hellip; For syntax highlighting.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;me&#34;&gt;Me&lt;/h2&gt;
-
-&lt;p&gt;A Child.&lt;/p&gt;
-</description>
-    </item>
+    <lastBuildDate>Sat, 07 May 2016 07:17:07 +0900</lastBuildDate>
+    <atom:link href="http://newtonlee95.github.io/Blog/android/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Usage</title>
@@ -160,31 +124,6 @@ you to the listing page of the posts in your site under the &lt;code&gt;post/&lt
 You can find available styles in
 &lt;a href=&#34;https://github.com/key-amb/hugo-theme-bootie-docs/tree/master/static/css/highlight&#34;&gt;static/css/highlight&lt;/a&gt;
 directory.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>_dummy</title>
-      <link>http://newtonlee95.github.io/Blog/index/_dummy/</link>
-      <pubDate>Wed, 04 May 2016 23:20:07 +0900</pubDate>
-      
-      <guid>http://newtonlee95.github.io/Blog/index/_dummy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>_index</title>
-      <link>http://newtonlee95.github.io/Blog/_index/</link>
-      <pubDate>Thu, 30 Apr 2015 14:16:05 +0900</pubDate>
-      
-      <guid>http://newtonlee95.github.io/Blog/_index/</guid>
-      <description>
-
-&lt;h2 id=&#34;carpe-diem&#34;&gt;Carpe Diem&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;活在当下&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
