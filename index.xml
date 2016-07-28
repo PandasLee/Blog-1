@@ -12,6 +12,16 @@
     
     <item>
       <title>My first post</title>
+      <link>http://newtonlee95.github.io/Blog/daily/first/</link>
+      <pubDate>Thu, 28 Jul 2016 16:21:30 +0900</pubDate>
+      
+      <guid>http://newtonlee95.github.io/Blog/daily/first/</guid>
+      <description>&lt;p&gt;boom boom boom.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
       <link>http://newtonlee95.github.io/Blog/post/first/</link>
       <pubDate>Thu, 28 Jul 2016 16:21:30 +0900</pubDate>
       
@@ -166,10 +176,10 @@ directory.&lt;/li&gt;
     
     <item>
       <title>_dummy</title>
-      <link>http://newtonlee95.github.io/Blog/index/_dummy/</link>
+      <link>http://newtonlee95.github.io/Blog/daily/_dummy/</link>
       <pubDate>Wed, 04 May 2016 23:20:07 +0900</pubDate>
       
-      <guid>http://newtonlee95.github.io/Blog/index/_dummy/</guid>
+      <guid>http://newtonlee95.github.io/Blog/daily/_dummy/</guid>
       <description></description>
     </item>
     

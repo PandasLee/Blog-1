@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dailies on NewtonLee-Blog</title>
+    <link>http://newtonlee95.github.io/Blog/daily/</link>
+    <description>Recent content in Dailies on NewtonLee-Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2016, NewtonLee; All rights reserved.</copyright>
+    <lastBuildDate>Thu, 28 Jul 2016 16:21:30 +0900</lastBuildDate>
+    <atom:link href="http://newtonlee95.github.io/Blog/daily/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My first post</title>
+      <link>http://newtonlee95.github.io/Blog/daily/first/</link>
+      <pubDate>Thu, 28 Jul 2016 16:21:30 +0900</pubDate>
+      
+      <guid>http://newtonlee95.github.io/Blog/daily/first/</guid>
+      <description>&lt;p&gt;boom boom boom.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>_dummy</title>
+      <link>http://newtonlee95.github.io/Blog/daily/_dummy/</link>
+      <pubDate>Wed, 04 May 2016 23:20:07 +0900</pubDate>
+      
+      <guid>http://newtonlee95.github.io/Blog/daily/_dummy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
