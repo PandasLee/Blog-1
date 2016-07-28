@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2016, NewtonLee; All rights reserved.</copyright>
-    <lastBuildDate>Sat, 07 May 2016 07:39:21 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 28 Jul 2016 07:39:21 +0900</lastBuildDate>
     <atom:link href="http://newtonlee95.github.io/Blog/categories/info/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
       <link>http://newtonlee95.github.io/Blog/about/</link>
-      <pubDate>Sat, 07 May 2016 07:39:21 +0900</pubDate>
+      <pubDate>Thu, 28 Jul 2016 07:39:21 +0900</pubDate>
       
       <guid>http://newtonlee95.github.io/Blog/about/</guid>
       <description>
@@ -30,7 +30,9 @@
 &lt;li&gt;&lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt; &amp;hellip; For syntax highlighting.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;See also README of &lt;a href=&#34;https://github.com/key-amb/hugo-theme-bootie-docs&#34;&gt;Bootie Docs&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;me&#34;&gt;Me&lt;/h2&gt;
+
+&lt;p&gt;A Child.&lt;/p&gt;
 </description>
     </item>
     
