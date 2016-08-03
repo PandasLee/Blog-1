@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on My New Hugo Site</title>
+    <link>http://materialexample.sa.muel.be/page/</link>
+    <description>Recent content in Pages on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jul 2015 17:53:13 +0200</lastBuildDate>
+    <atom:link href="http://materialexample.sa.muel.be/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>something</title>
+      <link>http://materialexample.sa.muel.be/page/something/</link>
+      <pubDate>Sat, 11 Jul 2015 17:53:13 +0200</pubDate>
+      
+      <guid>http://materialexample.sa.muel.be/page/something/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>http://materialexample.sa.muel.be/page/contact/</link>
+      <pubDate>Sat, 11 Jul 2015 17:53:05 +0200</pubDate>
+      
+      <guid>http://materialexample.sa.muel.be/page/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://materialexample.sa.muel.be/page/about/</link>
+      <pubDate>Sat, 11 Jul 2015 17:52:45 +0200</pubDate>
+      
+      <guid>http://materialexample.sa.muel.be/page/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
