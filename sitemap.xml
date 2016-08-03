@@ -2,73 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://newtonlee95.github.io/Blog/</loc>
-    <lastmod>2015-07-11T17:53:13+02:00</lastmod>
+    <loc>http://www.yourdomain.com/</loc>
+    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://newtonlee95.github.io/Blog/page/something/</loc>
-    <lastmod>2015-07-11T17:53:13+02:00</lastmod>
+    <loc>http://www.yourdomain.com/2015/10/10/introducing-icarus-and-its-features</loc>
+    <lastmod>2015-10-10T16:56:43+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://newtonlee95.github.io/Blog/page/contact/</loc>
-    <lastmod>2015-07-11T17:53:05+02:00</lastmod>
+    <loc>http://www.yourdomain.com/2015/10/10/migrate-from-jekyll</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://newtonlee95.github.io/Blog/page/about/</loc>
-    <lastmod>2015-07-11T17:52:45+02:00</lastmod>
+    <loc>http://www.yourdomain.com/2015/10/02/linked-post</loc>
+    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://newtonlee95.github.io/Blog/post/tenth/</loc>
-    <lastmod>2015-07-11T14:42:50+02:00</lastmod>
+    <loc>http://www.yourdomain.com/2015/09/17/go-is-for-lovers</loc>
+    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://newtonlee95.github.io/Blog/post/ninth/</loc>
-    <lastmod>2015-07-11T14:42:45+02:00</lastmod>
+    <loc>http://www.yourdomain.com/2015/08/03/hugo-is-for-lovers</loc>
+    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://newtonlee95.github.io/Blog/post/eigth/</loc>
-    <lastmod>2015-07-11T14:42:40+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://newtonlee95.github.io/Blog/post/seventh/</loc>
-    <lastmod>2015-07-11T14:42:33+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://newtonlee95.github.io/Blog/post/sixth/</loc>
-    <lastmod>2015-07-11T14:42:26+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://newtonlee95.github.io/Blog/post/fifth/</loc>
-    <lastmod>2015-07-11T14:42:19+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://newtonlee95.github.io/Blog/post/fourth/</loc>
-    <lastmod>2015-07-11T14:42:04+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://newtonlee95.github.io/Blog/post/third/</loc>
-    <lastmod>2015-07-11T14:41:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://newtonlee95.github.io/Blog/post/second/</loc>
-    <lastmod>2015-07-10T21:53:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://newtonlee95.github.io/Blog/post/first/</loc>
-    <lastmod>2015-07-10T21:52:59+02:00</lastmod>
+    <loc>http://www.yourdomain.com/2015/06/24/creating-a-new-theme</loc>
+    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url>
   
 </urlset>
